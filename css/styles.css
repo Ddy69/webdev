@@ -154,6 +154,7 @@ hr{
 .footerlink{
     display:inline-block;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 .footerlink:hover{
@@ -162,7 +163,6 @@ hr{
 
 .mhr{ 
   height: 0;
-  border-width: 20px;
   margin-top:50px;
   margin-bottom: 50px;
   background-color: #82AAE3;
