@@ -96,6 +96,10 @@ hr{
   padding-bottom: 50px;
 }
 
+.bio-text{
+  text-align: justify;
+}
+
 .skills{
     width: 80%;
     margin:0 auto 0 auto;
@@ -113,7 +117,7 @@ hr{
     width:50%;
     height: fit-content;
     margin: 100px auto 100px auto;
-    text-align: left;
+    text-align: justify;
 }
 
 .coder{
@@ -137,7 +141,7 @@ hr{
 .contact-me h2{
   color:#4a6fa3;
   font-size: 3.5em;
-  text-align: left;
+  text-align: justify;
 }
 .bottom-container{
     position: absolute;
