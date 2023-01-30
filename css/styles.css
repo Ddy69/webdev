@@ -3,7 +3,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
-  background-color: #BFEAF5;
+  background-color: #E6EAEF;
 }
 
 h1 {
@@ -29,7 +29,8 @@ hr{
   border-width: 1rem;
   width:90px;
   color:#4a6fa3;
-  background-color: #BFEAF5;
+  background-color: #E6EAEF;
+
   margin-top:50px;
   margin-bottom: 50px;
 }
@@ -38,7 +39,7 @@ hr{
 /*************************CLASS SELECTORS**************************/
 
 .topct {
-  background-color: #BFEAF5;
+  background-color: #E6EAEF;
   position: relative;
   padding-top: 200px;
   padding-bottom: 150px;
@@ -63,13 +64,11 @@ hr{
 /****2**/
 .middle-container{
     padding-top:150px;
-    background-color: #BFEAF5;
-    height: 2200px;
+    background-color: #E6EAEF;
+    height:max-content;
     width: 100%;
     position:relative;
     text-align: center;
-    
-    
 }
 
 .job{
@@ -218,6 +217,41 @@ hr{
 .credit{
   color: #4a6fa3;
 }
+
+.signup-form {
+  background-color: #E6EAEF;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.signup-form h2 {
+  color: #2B3467;
+  margin-bottom: 20px;
+}
+
+.signup-form p {
+  color: #6D7C93;
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="email"] {
+  width: 60%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #6D7C93;
+}
+
+.signup-form button[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+}
+
 /***************************ID SELECTORS*****************************/
 
 
